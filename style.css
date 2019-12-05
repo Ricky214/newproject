@@ -1,0 +1,249 @@
+ /*body { 
+  background: url(background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+
+.nav{
+    Padding:30px 10px 0px 50px;
+    margin: 0px 5px;
+    float:right;
+	margin-bottom:10px;
+}
+.logo{
+    float:left;
+    padding:10px 5px 0px 10px;
+    margin-top:10px;
+}
+.homeslide{
+    align-items: center;
+}
+
+/*
+.slide{
+	width:100%;
+	position:relative;
+}
+
+.slide img{
+	display:block;
+}
+
+.slide-text{
+	position:absolute;
+	bottom:0;
+	background-color:rgba(17,17,17,.7);
+	color:white;
+	width:100%;
+	padding:20px;
+	box-sizing: border-box;
+}
+
+.slide-text h3{
+	margin:0;
+
+}
+
+.cycle-prev, .cycle-next {
+	position:absolute;
+	top:30%;
+	background-color: rgba(0,0,0,.35);
+	color:#fff;
+	padding:1px 1px;
+	display:block;
+	cursor:pointer;
+	font-size: 250%;
+	z-index:1000;
+	opacity:0;
+	transition: opacity .5s;
+
+}
+
+.cycle-next{
+	right:0%;
+}
+
+.cycle-slideshow:hover .cycle-prev,
+.cycle-slideshow:hover .cycle-next{
+	opacity: 1;
+}
+
+.cycle-pager{
+	position:absolute;
+	top:20px;
+	z-index:1003;
+	width:100%;
+	text-align:center;
+}
+
+.cycle-pager span{
+	text-indent:-9999px;
+	display:inline-block;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	background-color:#fff;
+	margin: 0 4px;
+	cursor:pointer;
+}
+
+.cycle-pager .cycle-pager-active{
+	background-color: #000;
+}
+p {
+	text-align:left;
+	padding-left:20px;
+	padding-right:20px;
+	color:white;
+	font-size: 18;
+}
+*/
+.carousel-item{
+    max-height:30rem;
+}
+.container{
+    padding:10px 10px;
+    
+    text-align: center;
+}
+.pres-text{
+    color:#002147;
+    font-weight:bold;
+}
+.bd-example{
+	Margin-top:10px;
+}
+.nav{
+	Padding:20px 5px;
+}
+.nav-item{
+	Position:relative;
+}
+.carousel-item{ 
+     Padding-top:50px;
+}
+
+.contact-img{
+    padding:10px 10px;
+}
+
+.contact-form{
+	padding:10px 10px;
+}
+
+.contact-address{
+	color:#002147;
+    padding:10px 10px;
+	
+}
+
+.history-banner-img{
+    padding:10px 10px;
+    height:20%;
+}
+
+.history-text{
+    max-width:60%;
+    padding: 10px 10px;
+    margin:5px 5px;
+}
+
+
+.walter{
+    float:right;
+    height:50%;
+    max-width:40%;
+    padding: 5px 5px;
+    margin:10px 10px;
+}
+.history-pres{
+   max-height:100%
+}
+
+.grid-wrapper{
+	display:grid;
+	grid-gap:20px;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-column-start:1;
+}
+
+.box{
+	width:100%;
+}
+.box{
+	padding:5px;
+	margin:5px;
+}
+.nav-color{
+    background-color:white;
+}
+
+#earth {
+  /* [1] Allow it to contain the absolutely positions pseudo-elements (later-on) */
+  position: relative;
+
+  /* [2] Set-up the dimensions and spacing */
+  width: 300px;
+  height: 300px;
+  margin: 3em auto;
+
+  /* [3] Prepare the animation effects */
+  transition: transform 200ms linear;
+  animation: rotate 4s linear infinite; /* This is going to be defined in the next step */
+     /* [4] Tweak the appearance, and give it a nice background i.e. the world map */
+  color: #000;
+  border-radius: 50%;
+  background: url(world-map.jpg) 0 0 repeat / 630px;
+  box-shadow: inset 20px 0 80px 6px rgba(0, 0, 0, .4);
+
+  /* [5] Position things in a 3d space */
+  transform-style: preserve-3d;
+}
+
+#earth:after {
+  /* [1] Break the flow to show this as an overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+     /* [2] Make it take all the space available in the box (ahem... globe!) */
+  width: 100%;
+  height: 100%;
+
+  /* [3] Make sure this has no generated content, as we want this just for fancy purposes */
+  content: '';
+
+  /* [4] Give it some shape and shadow */
+  border-radius: 50%;
+  box-shadow: -0px 5px 90px 5px rgba(0,0,0,.9) inset;
+}
+#earth:before {
+  /* [1] Again, break the flow to show this as an overlay */
+  position: absolute;
+  top: 0;
+  left: 0;
+      /* [2] Again, give it all the available space */
+  width: 100%;
+  height: 100%;
+
+  /* [3] Duh. */
+  content: '';
+
+  /* [4] Add some shape and overlay effect to it */
+  opacity: .2;
+  border-radius: 50%;
+  background: radial-gradient(circle at 100px 100px, #fff, #000);
+}
+@keyframes rotate {
+  0% {background-position: 0 0;}
+  100% {background-position: 630px 0;}
+} 
+
+.sales-form{
+	padding:10px 10px;
+	margin:10px 10px;
+	color:#002147;
+}
+
+/*https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiFx_KZ0pnmAhUFExoKHXE0AOMQjRx6BAgBEAQ&url=https%3A%2F%2Fgeology.com%2Fworld%2Fworld-map.shtml&psig=AOvVaw2ECcaT0tlWXBDyTjI9g_I1&ust=1575468089330818*/
